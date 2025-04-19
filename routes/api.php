@@ -17,7 +17,6 @@ Route::middleware([HandleCors::class])->group(function () {
         Route::post('/orders/store', [OrderController::class, 'store']);
         Route::post('/orders/{order}/status', [OrderController::class, 'updateStatus']);
         Route::get('/orders', [OrderController::class, 'index']);
-        Route::post('/orders/search', [OrderController::class, 'search']);
         Route::post('/orders/{id}', [OrderController::class, 'update']);
     });
 });
