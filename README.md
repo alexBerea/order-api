@@ -20,7 +20,7 @@ POST api/orders/store <BR>
 POST api/orders/{order}/status <BR>
 GET  api/orders
 
-## Отельно проект HTML + JS
+## Отдельно проект HTML + JS
 заходим на login.html регистрируемся и страничку редиректит на
 index.html
 
